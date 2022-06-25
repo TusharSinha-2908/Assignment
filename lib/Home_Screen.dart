@@ -146,6 +146,7 @@ class _Home_ScreenState extends State<Home_Screen>{
 
   @override
   void initState() {
+    getData();
     fetchData();
     // TODO: implement initState
     super.initState();
